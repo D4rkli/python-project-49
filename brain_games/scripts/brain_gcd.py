@@ -1,5 +1,5 @@
-from brain_games.scripts.common import welcome_user, play_game
-from brain_games.scripts.gcd_game import generate_question_and_answer
+from brain_games.games.common import welcome_user, play_game
+from brain_games.games.gcd_game import generate_question_and_answer
 
 def main():
     name = welcome_user()
