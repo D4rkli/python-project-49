@@ -23,12 +23,15 @@ def main():
         print(f"Question: {question}")
         user_answer = input("Your answer: ")
         if user_answer != correct_answer:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(
+                f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {user_name}!")
             return
         print("Correct!")
         correct_answers_count += 1
     print(f"Congratulations, {user_name}!")
+
 
 if __name__ == "__main__":
     main()
