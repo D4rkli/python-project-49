@@ -1,5 +1,6 @@
 import random
 
+
 def is_prime(n):
     if n <= 1:
         return False
@@ -7,6 +8,7 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
 
 def generate_question_and_answer():
     number = random.randint(1, 100)

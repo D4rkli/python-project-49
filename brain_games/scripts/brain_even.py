@@ -3,13 +3,16 @@
 import random
 from brain_games.cli import welcome_user
 
+
 def is_even(number):
     return number % 2 == 0
+
 
 def generate_question_and_correct_answer():
     question = random.randint(1, 100)
     correct_answer = 'yes' if is_even(question) else 'no'
     return question, correct_answer
+
 
 def main():
     user_name = welcome_user()
