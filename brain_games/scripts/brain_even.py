@@ -24,9 +24,8 @@ def main():
         user_answer = input("Your answer: ")
         if user_answer != correct_answer:
             print(
-            print(
-                 f"'{user_answer}' is wrong answer ;(. Correct answer was "
-                 f"'{correct_answer}'."
+                f"'{user_answer}' is wrong answer ;(. Correct answer was "
+                f"'{correct_answer}'."
             )
             print(f"Let's try again, {user_name}!")
             return
