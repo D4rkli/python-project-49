@@ -4,4 +4,6 @@
 ## Демонстрация установки и запуска игры
 [![asciicast](https://asciinema.org/a/LyTIyFK02TPwz7B8EThR4ItaL)](https://asciinema.org/a/LyTIyFK02TPwz7B8EThR4ItaL)
 
+[![asciicast](https://asciinema.org/a/XYVe4bFyRJxiX6abRSnVB60mb)](https://asciinema.org/a/XYVe4bFyRJxiX6abRSnVB60mb)
+
 [![asciicast](https://asciinema.org/a/cJIzzqMD13GeUgRL73TtsqXlS)]
