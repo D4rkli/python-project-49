@@ -13,7 +13,7 @@ def generate_question_and_correct_answer():
 
 def main():
     user_name = welcome_user()
-    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     correct_answers_count = 0
     while correct_answers_count < 3:
         question, correct_answer = generate_question_and_correct_answer()
