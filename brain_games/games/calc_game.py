@@ -1,19 +1,19 @@
 import random
 
 
+def calculate(num1, num2, op):
+    if op == '+':
+        return num1 + num2
+    elif op == '-':
+        return num1 - num2
+    elif op == '*':
+        return num1 * num2
+
+
 def generate_question_and_answer():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
-    operation = random.choice(['+', '-', '*'])
-
-    if operation == '+':
-        question = f"{num1} + {num2}"
-        answer = str(num1 + num2)
-    elif operation == '-':
-        question = f"{num1} - {num2}"
-        answer = str(num1 - num2)
-    else:  # operation == '*'
-        question = f"{num1} * {num2}"
-        answer = str(num1 * num2)
-
-    return question, answer
+    op = random.choice(['+', '-', '*'])
+    question = f"{num1} {op} {num2}"
+    correct_answer = str(calculate(num1, num2, op))
+    return question, correct_answer

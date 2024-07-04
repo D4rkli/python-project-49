@@ -8,7 +8,7 @@ def generate_progression(start, step, length):
 def generate_question_and_answer():
     start = random.randint(1, 10)
     step = random.randint(1, 10)
-    length = random.randint(5, 10)
+    length = 10
     progression = generate_progression(start, step, length)
 
     missing_index = random.randint(0, length - 1)
