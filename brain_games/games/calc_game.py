@@ -1,6 +1,9 @@
 import random
 
 
+MAX_NUMBER = 100
+
+
 def calculate(num1, num2, op):
     if op == '+':
         return num1 + num2
@@ -11,8 +14,8 @@ def calculate(num1, num2, op):
 
 
 def generate_question_and_answer():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
+    num1 = random.randint(1, MAX_NUMBER)
+    num2 = random.randint(1, MAX_NUMBER)
     op = random.choice(['+', '-', '*'])
     question = f"{num1} {op} {num2}"
     correct_answer = str(calculate(num1, num2, op))

@@ -1,6 +1,9 @@
 import random
 
 
+MAX_NUMBER = 100
+
+
 def is_prime(number):
     if number <= 1:
         return False
@@ -11,7 +14,7 @@ def is_prime(number):
 
 
 def generate_question_and_answer():
-    number = random.randint(1, 100)
+    number = random.randint(1, MAX_NUMBER)
     question = str(number)
     correct_answer = 'yes' if is_prime(number) else 'no'
     return question, correct_answer
