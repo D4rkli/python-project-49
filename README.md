@@ -1,3 +1,7 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/D4rkli/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://g>
+<a href="https://codeclimate.com/github/D4rkli/python-project-49/maintainability"><img src="https://api.codeclimate.com>
+
 # Brain Games
 
 Brain Games - это коллекция из пяти обучающих игр, которые помогут вам развить свои умственные способности. Каждая игра представляет собой небольшую задачу, которую нужно решить за несколько секунд.
@@ -54,13 +58,10 @@ Brain Games - это коллекция из пяти обучающих игр,
 ## Видео демонстрации
 
 ### Установка и запуск игры
+[![Actions Status](https://asciinema.org/a/XaSwZMVx9C86pbrjUsOTOywZr.svg)](https://asciinema.org/a/XaSwZMVx9C86pbrjUsOTOywZr)
 
-
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/D4rkli/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/D4rkli/python-project-49/actions)
-<a href="https://codeclimate.com/github/D4rkli/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/0f319a9781c1f9341917/maintainability" /></a>
 ## Демонстрация установки и запуска игры
+
 ### Демонстрация игры "Калькулятор"
 [![asciicast](https://asciinema.org/a/LyTIyFK02TPwz7B8EThR4ItaL.svg)](https://asciinema.org/a/LyTIyFK02TPwz7B8EThR4ItaL)
 
