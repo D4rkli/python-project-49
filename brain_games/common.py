@@ -1,12 +1,8 @@
-def welcome_user():
+def play_game(description, generate_question_and_answer):
     print('Welcome to the Brain Games!')
     name = input('May I have your name? ')
     print(f'Hello, {name}!')
-    return name
 
-
-def play_game(description, generate_question_and_answer):
-    name = welcome_user()
     print(description)
     correct_answers_needed = 3
     correct_answers_given = 0

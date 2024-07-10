@@ -2,12 +2,13 @@ import random
 
 
 MAX_NUMBER = 100
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return a
+def gcd(number1, number2):
+    while number2:
+        number1, number2 = number2, number1 % number2
+    return number1
 
 
 def generate_question_and_answer():

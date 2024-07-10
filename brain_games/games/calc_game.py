@@ -2,7 +2,7 @@ import random
 
 
 MAX_NUMBER = 100
-
+DESCRIPTION = 'What is the result of the expression?'
 
 def calculate(num1, num2, op):
     if op == '+':
