@@ -58,7 +58,7 @@ Brain Games - это коллекция из пяти обучающих игр,
 ## Видео демонстрации
 
 ### Установка и запуск игры
-[![Actions Status](https://asciinema.org/a/XaSwZMVx9C86pbrjUsOTOywZr.svg)](https://asciinema.org/a/XaSwZMVx9C86pbrjUsOTOywZr)
+[![Actions Status](https://asciinema.org/a/PwkzzU7sMTKA7sR3UM7WES1k5.svg)](https://asciinema.org/a/PwkzzU7sMTKA7sR3UM7WES1k5)
 
 ## Демонстрация установки и запуска игры
 
