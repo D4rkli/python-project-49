@@ -32,27 +32,27 @@ Brain Games - это коллекция из пяти обучающих игр,
 
 - **Игра на четность**:
     ```sh
-    poetry run brain-even
+    brain-even
     ```
 
 - **Калькулятор**:
     ```sh
-    poetry run brain-calc
+    brain-calc
     ```
 
 - **Наибольший общий делитель (НОД)**:
     ```sh
-    poetry run brain-gcd
+    brain-gcd
     ```
 
 - **Арифметическая прогрессия**:
     ```sh
-    poetry run brain-progression
+    brain-progression
     ```
 
 - **Простое число**:
     ```sh
-    poetry run brain-prime
+    brain-prime
     ```
 
 ## Видео демонстрации
