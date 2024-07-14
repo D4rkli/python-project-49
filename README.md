@@ -13,17 +13,22 @@ Brain Games - это коллекция из пяти обучающих игр,
 1. Склонируйте репозиторий:
     ```sh
     git clone https://github.com/D4rkli/python-project-49.git
-    cd brain-games
+    cd python-project-49
     ```
 
-2. Установите Poetry, если он еще не установлен:
+2. Соберите проект:
     ```sh
-    pip install poetry
+    make build
     ```
 
-3. Установите зависимости:
+3. Установите пакет:
     ```sh
-    poetry install
+    make install
+    ```
+
+4. Установите пакет в системные директории:
+    ```sh
+    make package-install
     ```
 
 ## Запуск игр
